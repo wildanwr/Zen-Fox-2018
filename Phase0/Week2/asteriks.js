@@ -1,21 +1,47 @@
-// 1. Menyusun Barisan Bintang
-// var rows1 = 5;
-// for (var counter1 = 0; counter1 < rows1; counter1++) {
-//   var hasil1 = "";
-//   hasil1 = hasil1 + "*";
-//   console.log(hasil1);
-// }
+//1.
+var rows1 = 5;
+while (rows1 > 0) {
+  console.log("*");
+  rows1 = rows1 - 1;
+}
 
 
-// console.log("\n");
+
+console.log("\n");
 
 
-// 2. Menyusun Barisan Bintang Dengan Nested Looping
-// var rows2 = 5;
-// for (var counter2 = 0; counter2 < rows2; counter2++) {
-//   var hasil2 = "";
-//   for (var counterDalam1 = 0; counterDalam1 < rows2; counterDalam1++) {
-//     hasil2 = hasil2 + "*";
-//     console.log(hasil2);
-//   }
-// }
+
+//2.
+var rows2 = 5;
+var counter = 0
+
+while (rows2 > counter) {
+  var kolom = "";
+  var counterkolom = 0;
+  while (counterkolom <= rows2) {
+    kolom = kolom + "*";
+    counterkolom = counterkolom + 1;
+  }
+  counter = counter + 1;
+  console.log(kolom);
+}
+
+
+
+console.log("\n");
+
+
+
+//3.
+var rows3 = 5;
+var counter = 0;
+while (counter < rows3) {
+  var temp = "";
+  var counterDalam = 0;
+  while (counterDalam <= counter) {
+    temp = temp + "*";
+    counterDalam = counterDalam + 1;
+  }
+  console.log(temp);
+  counter = counter + 1;
+}
