@@ -17,7 +17,6 @@ function xo(str) {
   }
 }
 
-
 // TEST CASES
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false
