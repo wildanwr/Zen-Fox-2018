@@ -6,17 +6,16 @@ var input = [
 ]
 
 function dataHandling(arr) {
+  var result = ""
   for (var i = 0; i < arr.length; i++) {
-    var hasil = 'Nomor ID: ' + arr[i][0] + '\n';
-    var nama = 'Nama Lengkap: ' + arr[i][1] + '\n';
-    var ttl = 'TTL: ' + arr[i][2] + ' ' + arr[i][3] + '\n';
-    var hobi = 'Hobi: ' + arr[i][4] + '\n';
-    var dataJadi = hasil + nama + ttl + hobi;
-    console.log(dataJadi);
+    console.log('Nomor ID: ' + arr[i][0]);
+    console.log('Nama Lengkap: ' + arr[i][1]);
+    console.log('TTL: ' + arr[i][2] + ' ' + arr[i][3]);
+    console.log('Hobi: ' + arr[i][4]);
+    console.log("");
   }
+  return result
 }
 
 
 console.log(dataHandling(input));
-
-//BULUM JADI!
