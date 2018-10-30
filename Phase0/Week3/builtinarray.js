@@ -52,8 +52,6 @@ function dataHandling2(arr) {
     return value1 - value2
   }).join("/"));
   var nama = arr[1]
-  console.log(nama.slice(0, 14));
+  return nama.slice(0, 14);
 }
 console.log(dataHandling2(input));
-
-//BULUM JADI!
